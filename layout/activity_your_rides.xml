@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YourRides">
+
+    <ListView
+        android:id="@+id/listviewRides"
+        android:layout_width="368dp"
+        android:layout_height="437dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="189dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginStart="16dp"
+        android:text="YOUR RIDE HISTORY "
+        app:layout_constraintBottom_toTopOf="@+id/listviewRides"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@color/bookingText"
+        />
+</android.support.constraint.ConstraintLayout>

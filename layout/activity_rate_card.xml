@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout tools:context=".RateCard" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginHorizontal="20dp" android:layout_marginVertical="50dp">
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/colorPrimaryDark" android:textStyle="bold" android:textSize="20dp" android:text="HATCHBACK" android:gravity="center" android:layout_weight="1"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="127dp" android:textColor="@color/blackk" android:textSize="20dp" android:text="Base Fare" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Charges/km" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Ride time charges" android:gravity="center" android:layout_weight="1"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="127dp" android:textColor="@color/blackk" android:textSize="20dp" android:text="Rs. 30" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Rs. 4" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Rs. 2"
+        android:textColor="@color/blackk"
+        android:textSize="20dp" />
+    />
+</TableRow>
+
+</TableLayout>
+
+
+    -<TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginHorizontal="20dp" android:layout_marginVertical="200dp">
+
+
+    -<TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="SEDAN"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="127dp" android:textColor="@color/blackk" android:textSize="20dp" android:text="Base Fare" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Charges/km" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Ride time charges" android:gravity="center" android:layout_weight="1"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="127dp" android:textColor="@color/blackk" android:textSize="20dp" android:text="Rs. 50" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Rs. 6" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Rs. 4" android:gravity="center" android:layout_weight="1"/>
+    />
+</TableRow>
+
+</TableLayout>
+
+
+    -<TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginHorizontal="20dp" android:layout_marginVertical="350dp">
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/colorPrimaryDark" android:textStyle="bold" android:textSize="20dp" android:text="SUV" android:gravity="center" android:layout_weight="1"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="127dp" android:textColor="@color/blackk" android:textSize="20dp" android:text="Base Fare" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Charges/km" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Ride time charges" android:gravity="center" android:layout_weight="1"/>
+
+</TableRow>
+
+
+    -<TableRow>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="127dp" android:textColor="@color/blackk" android:textSize="20dp" android:text="Rs. 75" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Rs. 9" android:gravity="center" android:layout_weight="1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@color/blackk" android:textSize="20dp" android:text="Rs. 5" android:gravity="center" android:layout_weight="1"/>
+    />
+</TableRow>
+
+</TableLayout>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="240dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="RATE CARD"
+        android:textColor="@color/bookingText"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
